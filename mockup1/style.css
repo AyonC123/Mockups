@@ -63,7 +63,7 @@ nav > .buttons > * {
 }
 
 main {
-	padding-inline: 147px;
+	padding: 40px 147px;
 	color: var(--secondary);
 }
 
