@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+	--primary: #e1ece1;
+	--secondary: #465c46;
+	--tertiary: #d9d9d9;
+	--highlight: #ffcc00;
+}
+
+* {
+	font-family: "Poppins";
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: var(--primary);
+	color: white;
+}
+
+.yellow {
+	color: var(--highlight);
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	align-items: center;
+	padding: 22px 147px;
+	background: var(--secondary);
+}
+
+nav > input {
+	background: var(--tertiary);
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	width: 400px;
+	min-width: 20px;
+	color: var(--secondary);
+}
+
+nav > .buttons {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 10px;
+}
+
+nav > .buttons :nth-child(1) {
+	background: transparent;
+	color: var(--teritary);
+	border: 2px var(--tertiary) solid;
+}
+
+nav > .buttons > * {
+	padding: 13px;
+	border-radius: 10px;
+	border: none;
+	width: 100px;
+	background: var(--tertiary);
+	color: var(--secondary);
+}
+
+main {
+	padding-inline: 147px;
+	color: var(--secondary);
+}
+
+main > .intro {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 25%;
+}
+
+main > .intro > .text > button {
+	border: none;
+	padding: 10px;
+	border-radius: 10px;
+	background: var(--highlight);
+	width: 100px;
+	font-weight: bold;
+}
+
+main > .cuisines {
+	padding-bottom: 20px;
+}
+
+main > .cuisines > h1 {
+	color: var(--secondary);
+}
+
+main > .cuisines > .cards {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 35px;
+	padding-bottom: 20px;
+}
+
+main > .cuisines > .cards > .card {
+	text-align: center;
+	background: white;
+	border-radius: 15px;
+	color: black;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: var(--secondary);
+}
