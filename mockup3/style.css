@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@500&family=Josefin+Sans:wght@400;600;700&display=swap");
+
+:root {
+	--primary: #4756df;
+}
+
+* {
+	font-family: "Josefin Sans";
+	font-weight: 400;
+	color: black;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px 120px;
+}
+
+nav > button {
+	background: var(--primary);
+	color: white;
+	box-shadow: 0px 4px 45px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	border: none;
+	padding: 15px;
+	width: 125px;
+	font-size: 15px;
+}
+
+main {
+	padding: 40px 147px;
+	color: var(--secondary);
+}
+
+main > .intro {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 20%;
+}
+
+main > .intro > .text > .buttons :first-child {
+	color: white;
+	background: rgba(71, 86, 223, 0.95);
+	box-shadow: 0px 4px 45px rgba(0, 0, 0, 0.25);
+	border-radius: 9px;
+	border: none;
+	padding: 15px;
+	font-size: 15px;
+}
+
+main > .intro > .text > h1 {
+	font-size: 40px;
+}
+
+main > .intro > .text > p {
+	font-family: "IBM Plex Sans";
+	color: #838383;
+}
+
+main > .intro > .text > .buttons > button {
+	border: 2px solid #959090;
+	border-radius: 9px;
+	padding: 15px;
+	font-size: 15px;
+	color: #838383;
+	width: 150px;
+}
+
+main > .courses {
+	padding-top: 100px;
+}
+
+main > .courses > h1 {
+	text-align: center;
+	font-weight: 700;
+}
+
+main > .courses > .cards {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 20px;
+	padding: 40px 0;
+}
+main > .courses > .cards > .card {
+	box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	background: #f9f9f9;
+	padding-bottom: 10px;
+	flex-basis: 0;
+}
+
+main > .courses > .cards > .card > .text {
+	padding: 15px;
+}
+
+main > .courses > .cards > .card > .text > h3 {
+	font-family: "Josefin Sans";
+	font-weight: 600;
+	font-size: 22px;
+}
+
+main > .courses > .cards > .card > .text > p {
+	font-family: "IBM Plex Sans";
+}
+
+main > .courses > .cards > .card > .text > a {
+	font-family: "Inter";
+	font-weight: 500;
+	font-size: 14px;
+}
